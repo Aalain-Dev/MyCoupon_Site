@@ -95,3 +95,12 @@ nav {
 .gap-10 {
   gap: 20px;
 }
+/* footer  */
+.footer-bg-color{
+    background-color: #2B9DDE;
+    padding: 20px;
+}
+.footer-text{
+    font-size: 14px;
+    color: #fff;
+}
