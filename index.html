@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   </head>
   <body>
     <!-- Navbar Code  -->
@@ -32,6 +37,7 @@
         </div>
       </a>
     </section>
+    <!-- localities starts here -->
     <section class="bg-color localities-padding">
       <div class="container">
         <h2 class="text-center popular-text">Popular Localities</h2>
@@ -80,6 +86,34 @@
         </div>
       </div>
     </section>
+    <!-- Popular Coupons starts here -->
+     <section class="localities-padding">
+      <h2 class="text-center popular-text">Popular Coupons </h2>
+        <p class="text-center mumbai-text">Our members most loved stores</p>
+        <div class="container">
+          <div class="popular-coupon-cards">
+              <div class="owl-carousel owl-theme">
+                <div class="popular-coupon-card position-relative ">
+                  <div class="star position-absolute  ">
+                    <i class="fa-solid fa-star grey-color-star"></i>
+                  </div>
+                 <div class="d-flex justify-content-center">
+                  <div class="brand-image text-center d-flex justify-content-center align-center  ">
+                    <img src="./images/popular-coupon-images/macdonalds-img.png" class="w-60" alt="">
+                  </div>
+                 </div>
+                  <p class="text-center brand-name">McDonalds</p>
+                  <p class="text-center brand-discount">30% OFF</p>
+                  <p class="text-center validity">Valid until 01 December 2022</p>
+                  <div class="text-center mt-2">
+                  <button class="text-center popular-coupons-btn text-white">KNOW MORE</button>
+
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+     </section>
     <!-- Offers you will love starts here -->
      <section class="offer-bg-color offers-padding">
       <div class="container">
@@ -122,7 +156,7 @@
     <section class="container">
       <h2 class="text-center popular-text">Trending Coupons</h2>
       <p class="text-center mumbai-text">
-        Discovery and savings for local shopping. Food, fashion, beauty,
+        Discovery and savings for local shopping. Food, <br> fashion, beauty,
         pharmacy and more.
       </p>
       <div class="d-flex">
@@ -186,7 +220,7 @@
       </div>
     </section>
     <!-- coupon code -->
-    <div class="add-btn position-absolute">
+    <div class="add-btn ">
       <i class="fa-solid fa-plus text-white "></i>
     </div>
 
@@ -197,5 +231,30 @@
       </p>
     </footer>
   </body>
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Owl Carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="./js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
 </html>

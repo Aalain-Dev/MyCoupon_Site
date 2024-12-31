@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* utilities classes */
@@ -11,7 +11,7 @@
   display: flex;
 }
 .container {
-  max-width: 1300px;
+  max-width: 1250px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -69,6 +69,9 @@ a {
 .text-white {
   color: #fff;
 }
+.w-60 {
+  width: 60%!important;
+}
 /* navbar code  */
 nav {
   padding: 10px;
@@ -83,7 +86,7 @@ nav {
   padding-bottom: 50px;
 }
 .popular-text {
-  font-size: 54px;
+  font-size: 50px;
   color: #313131;
   font-weight: 500;
 }
@@ -271,12 +274,13 @@ nav {
   font-size: 34px;
   background-color: #2b9dde;
   border-radius: 50%;
-  right: 32px;
-  bottom: -1381px;
   padding: 5px 16px;
   height: 60px;
   width: 60px;
-  cursor: pointer;  
+  cursor: pointer;
+  position: fixed;
+  bottom: 85px;
+  right: 26px;
 }
 .add-btn i {
   font-weight: 400;
@@ -339,4 +343,55 @@ nav {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   scale: 1.01;
   transition: all 0.3s ease-in-out;
+}
+
+/* Popular Coupons starts here */
+.popular-coupon-cards{
+padding: 10px 10px 10px 20px;
+margin-top: 10px ;
+margin-bottom: 10px;
+}
+.popular-coupon-card{
+  width: 340px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  padding: 50px 10px 40px 10px;
+}
+.grey-color-star{
+  color: #D7D7D7;
+}
+.brand-image{
+  background-color: #D9D9D9;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  }
+.brand-name{
+  font-size: 17px;
+  color: #313131;
+  font-weight: 300;
+}
+.brand-discount{
+  font-size: 40px;
+  font-weight: bold;
+  color: #313131;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.star{
+  top: 19px;
+  left: 20px;
+  cursor: pointer;
+}
+.owl-carousel .owl-stage-outer{
+  padding: 30px 10px 50px 20px;
+
+}
+.popular-coupons-btn{
+  background-color: #40A2D5;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-weight: 500;
+  cursor: pointer;
 }
