@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Coupon SIte</title>
+    <!-- Css Link -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Navbar Code  -->
@@ -44,7 +47,9 @@
               <p class="text-center city-name">POWAI</p>
             </div>
             <div class="city-card">
-              <p class="text-center card-number count" data-speed="100">1250+</p>
+              <p class="text-center card-number count" data-speed="100">
+                1250+
+              </p>
               <p class="text-center city-name">FORT</p>
             </div>
             <div class="city-card">
@@ -58,7 +63,9 @@
               <p class="text-center city-name">ANDHERI</p>
             </div>
             <div class="city-card">
-              <p class="text-center card-number count" data-speed="100">2500+</p>
+              <p class="text-center card-number count" data-speed="100">
+                2500+
+              </p>
               <p class="text-center city-name">Bandra Kurla Complex</p>
             </div>
             <div class="city-card">
@@ -74,27 +81,72 @@
       </div>
     </section>
     <!-- Trending Coupons -->
-<section class="container">
-    <h2 class="text-center popular-text">Trending Coupons
-    </h2>
-    <p class="text-center mumbai-text">Discovery and savings for local shopping. Food, fashion, beauty, pharmacy and more.</p> 
-<div class="d-flex ">
-    <div class="coupon-card">
-        <p class="brand">AMAZON</p>
-        <p class="offer">Get 75% OFF</p>
-        <p class="description">Great Indian Festival: Upto 75% Off on Computers and Peripherals</p>
-        <div class="dashed-line">
+    <section class="container">
+      <h2 class="text-center popular-text">Trending Coupons</h2>
+      <p class="text-center mumbai-text">
+        Discovery and savings for local shopping. Food, fashion, beauty,
+        pharmacy and more.
+      </p>
+      <div class="d-flex">
+        <div class="coupon-card">
+          <p class="brand">AMAZON</p>
+          <p class="offer">Get 75% OFF</p>
+          <p class="description">
+            Great Indian Festival: Upto 75% Off on Computers and Peripherals
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">GET75P</button>
+          <p class="validity">Valid until 31 October 2022</p>
         </div>
-        <button class="coupon-code">GET75P</button>
-        <p class="validity">Valid until 31 October 2022</p>
       </div>
-      
-</div>
-</section>
+    </section>
+    <!-- PopUp Form -->
+    <section>
+      <div class="back-layer">
+        <div class="form-div d-flex justify-content-center align-center position-relative">
+          <i class="fa-solid fa-x position-absolute form-close"></i>
+          <div class="form ">
+            <p class="text-center form-text">Enter Coupon Details</p>
+            <form action="" class="d-flex flex-column">
+              <input
+                type="text"
+                placeholder="Brand / Company Name"
+                class="mt-1 input-padding" required
+              />
+              
+              <input
+                type="text"
+                placeholder="Discount"
+                class="mt-1 input-padding" required
+              />
+              <input
+                type="text"
+                placeholder="Offer Details"
+                class="mt-1 input-padding" required
+              />
+              <input
+                type="text"
+                placeholder="Coupon Code"
+                class="mt-1 input-padding" required
+              />
+              <input
+                type="text"
+                placeholder="Validity"
+                class="mt-1 input-padding" required
+              />
+              <button class="form-submit-btn mt-2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
-     <footer class="footer-bg-color">
-<p class="text-center footer-text">        Copyright Idealake-assignment.com, All rights reserved.</p>
-     </footer>
+    <footer class="footer-bg-color">
+      <p class="text-center footer-text">
+        Copyright Idealake-assignment.com, All rights reserved.
+      </p>
+    </footer>
   </body>
   <script src="./js/script.js"></script>
 </html>
