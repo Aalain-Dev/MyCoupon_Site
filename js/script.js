@@ -35,7 +35,7 @@ const Validate_Form = () => {
   var offer_details = document.querySelector("#offer_details")
   var coupon_code = document.querySelector("#coupon_code")
   var expiry_date = document.querySelector("#validity")
-
+var form = document.querySelector("#form")
   brand.addEventListener("input", () => {
     brand_err.style.display = "none"
   })
@@ -59,27 +59,34 @@ const Validate_Form = () => {
   if (brand.value === "") {
     brand_err.innerHTML = "Please Enter Brand Name"
     brand_err.style.display = "block"
+    return false
   }
 
   if (discount.value === "") {
     discount_err.innerHTML = "Please Enter Discount"
     discount_err.style.display = "block"
+    return false
   }
 
   if (offer_details.value === "") {
     offer_err.innerHTML = "Please Enter Offer"
     offer_err.style.display = "block"
+    return false
   }
 
   if (coupon_code.value === "") {
     coupon_err.innerHTML = "Please Enter Offer"
     coupon_err.style.display = "block"
+    return false
   }
 
   if (expiry_date.value === "") {
     validity_err.innerHTML = "Please Enter Expiry Date"
     validity_err.style.display = "block"
+    return false
   }
+  form.reset();
+  return true
 }
 // Popular Coupons js
 var star_icon = document.querySelector("#star-icon")
@@ -88,3 +95,30 @@ star_icon.addEventListener("click",function(){
   star_icon.style.color= "#F0BB00";
   know_more_btn.style.display = "block"
 })
+document.getElementById('submit-coupon').addEventListener('click', function() {
+  const brand = document.getElementById('brand_name').value;
+  const offer = document.getElementById('discount').value;
+  const description = document.getElementById('offer_details').value;
+  const couponCode = document.getElementById('coupon_code').value;
+  const validity = document.getElementById('validity').value;
+
+  if (Validate_Form()) {
+    const couponCard = document.createElement('div');
+    couponCard.classList.add('coupon-card', 'mt-2');
+    couponCard.innerHTML = `
+      <p class="brand">${brand}</p>
+      <p class="offer mt-1">${offer}</p>
+      <p class="description">${description}</p>
+      <div class="dashed-line"></div>
+      <button class="coupon-code">${couponCode}</button>
+      <p class="validity">Valid until ${validity}</p>
+    `;
+    brand.value = '';
+    offer.value = '';
+    description.value = '';
+    couponCode.value = '';
+    validity.value = '';
+    document.querySelector('.trending-coupon-margin').appendChild(couponCard);
+    back_layer.style.display = "none";
+  } 
+});

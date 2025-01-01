@@ -180,7 +180,7 @@
                         </div>
               </div>
               <!-- navigation for slider  -->
-<div class="d-flex justify-content-center align-center">
+<div class="d-flex justify-content-center align-center d-mobile-none">
 <div class="nav-main d-flex justify-content-center gap-10 align-center">
   <i class="fa-solid fa-arrow-left active" id = "prev"></i>
   <i class="fa-solid fa-arrow-right" id = "next"></i>
@@ -234,16 +234,16 @@
       </div>
      </section>
     <!-- Trending Coupons -->
-    <section class="container">
+    <section class="container trending-sect">
       <h2 class="text-center popular-text">Trending Coupons</h2>
-      <p class="text-center mumbai-text">
+      <p class="text-center mumbai-text mt-2">
         Discovery and savings for local shopping. Food, <br> fashion, beauty,
         pharmacy and more.
       </p>
-      <div class="d-flex">
+      <div class="d-flex trending-coupon-margin justify-content-between flex-wrap">
         <div class="coupon-card">
           <p class="brand">AMAZON</p>
-          <p class="offer">Get 75% OFF</p>
+          <p class="offer mt-1">Get 75% OFF</p>
           <p class="description">
             Great Indian Festival: Upto 75% Off on Computers and Peripherals
           </p>
@@ -260,7 +260,7 @@
           <i class="fa-solid fa-x position-absolute form-close"></i>
           <div class="form ">
             <p class="text-center form-text">Enter Coupon Details</p>
-            <form action="" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
+            <form action="" id = "form" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
               <input
                 type="text"
                 placeholder="Brand / Company Name"
@@ -294,7 +294,7 @@
               />
               <p id = "validity_err" class="err"></p>
 
-              <button class="form-submit-btn mt-2">Submit</button>
+              <button class="form-submit-btn mt-2" id = "submit-coupon">Submit</button>
             </form>
           </div>
         </div>

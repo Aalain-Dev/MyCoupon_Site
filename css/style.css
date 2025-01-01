@@ -91,6 +91,8 @@ display: none;
 .d-destkop-none{
   display: none;
 }
+.flex-wrap{
+  flex-wrap: wrap;}
 /* navbar code  */
 nav {
   padding: 10px;
@@ -141,6 +143,7 @@ nav {
   font-size: 14px;
   color: #fff;
 }
+/* Trending Coupons starts here */
 .coupon-card {
   background-color: #fbfbfb;
   width: 30%;
@@ -208,11 +211,15 @@ nav {
   margin-top: 10px;
   border-bottom-width: 4px;
   margin-bottom: 14px;
+  font-weight: 600;
 }
 .dashed-line {
-  border-top: 6px dashed #66666634;
+  border-top: 3px dashed #66666634;
 }
-
+.trending-coupon-margin{
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
 .coupon-code {
   background-color: #007bff;
   color: #fff;
@@ -235,6 +242,9 @@ nav {
   color: #888;
   margin-top: 10px;
 }
+.trending-sect{
+  padding-top: 50px;
+}
 
 /* Form Popup Code Starts Here   */
 .back-layer {
@@ -245,8 +255,6 @@ nav {
   background-color: #000000a4;
   top: 0;
   z-index: 30;
-  /* display: flex;
-    align-items: center; */
   display: none; 
 }
 .form-div {
@@ -306,14 +314,17 @@ nav {
 }
 .err {
   color: #d90000;
+  font-weight: 600;
+  margin-top: 10px;
 }
 /* Offers you will love starts here  */
 .offer-bg-color {
   background-color: #f1f1f1;
 }
 .offer-text {
-  font-size: 54px;
+  font-size: 45px;
   color: #313131;
+  font-weight: 500;
 }
 .desc-text {
   font-size: 14px;
@@ -512,6 +523,7 @@ margin-bottom: 40px;
 
 /* media query starts here */
 @media screen and (max-width: 600px) {
+
   .d-destkop-none{
     display: block;
   }
@@ -529,6 +541,7 @@ margin-bottom: 40px;
 }
 .mumbai-text {
   font-size: 14px;
+  line-height: 1.5;
 }
 .card-number {
   font-size: 20px;
@@ -562,6 +575,17 @@ margin-bottom: 40px;
 }
 .desc-text {
 font-weight: 600;
+}
+.offer-card {
+  width: 50%;
+}
+.custom-gap {
+  gap: 25px;
+}
+.offers-card {
+  height: auto;
+  overflow-y: hidden;
+  margin-top: 20px !important;
 }
 }
 @media screen and (max-width: 400px) {
