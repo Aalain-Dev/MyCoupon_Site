@@ -395,12 +395,21 @@ padding: 10px 10px 10px 20px;
 margin-top: 10px ;
 margin-bottom: 10px;
 }
-.popular-coupon-card{
+.popular-coupon-card {
   width: 340px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
   padding: 50px 10px 40px 10px;
+  cursor: pointer;
+  transition:  all 0.3s ease-in-out;
+
 }
+
+.popular-coupon-card:hover {
+scale: 1.03;
+transition: all 0.3s ease-in-out;
+}
+
 .grey-color-star{
   color: #D7D7D7;
 }
@@ -438,6 +447,12 @@ margin-bottom: 40px;
   border-radius: 40px;
   font-weight: 500;
   cursor: pointer;
+transition:  all 0.3s ease-in-out;
+
+}
+.popular-coupons-btn:hover{
+  background-color: #0896e2;
+transition:  all 0.3s ease-in-out;
 }
 .nav-main{
   width: 121px;
