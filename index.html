@@ -116,7 +116,7 @@
                   <p class="text-center validity">Valid until 01 December 2022</p>
                   <div class="text-center mt-2">
 <div class="d-flex justify-content-center align-center">
-  <button class="text-center popular-coupons-btn text-white d-none" id = "know-more-btn" >KNOW MORE</button>
+  <button class="text-center popular-coupons-btn text-white d-none" id = "know-more-btn" onclick="showPopup(1)" >KNOW MORE</button>
 </div>
                   </div>
                   </div>
@@ -306,7 +306,7 @@
     </section>
     <!-- PopUp Form -->
     <section>
-      <div class="back-layer">
+      <div class="back-layer d-none">
         <div class="form-div d-flex justify-content-center align-center position-relative">
           <i class="fa-solid fa-x position-absolute form-close"></i>
           <div class="form ">
@@ -356,8 +356,39 @@
       <i class="fa-solid fa-plus text-white "></i>
     </div>
 <!-- Hover Coupon -->
-<!-- <div class="back-layer"> -->
-  <section class="d-flex justify-content-center">
+<!-- <div class="back-layer-hover"> -->
+  <!-- mc donalds -->
+  <section class="d-flex justify-content-center popup " >
+    <div class="pop-coupon position-relative ">
+      <div class="d-flex flex-column justify-content-center align-center">
+        <div class="top-section">
+          <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
+          <div class="d-flex justify-content-between align-center">  
+            <div class="image">
+              <img src="./images/popular-coupon-images/macdonalds-img.png" class="w-100" alt="">
+            </div>
+            <p class="coupon-offer ">30% OFF <br><span>McDonalds</span></p>
+          </div>
+          <div class="coupon-text-part position-relative">
+            <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 25% at your next McDonalds buy </p>
+            <ul>
+              <li>Reedea  mble at all McDonalds restaurants in the UK.</li>
+              <li>Not valid with any other discounts and promotions.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <div class="scanner-img d-flex justify-content-center flex-column align-center">
+            <img src="./images/coupon-pop-images/qr-img.png" class="w-60 mb-2" alt="">
+            <p class="text-center validity mt-3">Valid until 01 December 2022</p>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+     </section>
+  <!-- kfc coupon -->
+  <section class="d-flex justify-content-center popup d-none" id = "popup1">
     <div class="pop-coupon position-relative ">
       <div class="d-flex flex-column justify-content-center align-center">
         <div class="top-section">
@@ -387,6 +418,36 @@
       </div>
     </div>
      </section>
+<!-- starbucks -->
+<section class="d-flex justify-content-center popup " >
+  <div class="pop-coupon position-relative ">
+    <div class="d-flex flex-column justify-content-center align-center">
+      <div class="top-section">
+        <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
+        <div class="d-flex justify-content-between align-center">  
+          <div class="image">
+            <img src="./images/popular-coupon-images/vapiano-logo.png" class="w-100" alt="">
+          </div>
+          <p class="coupon-offer ">10% OFF <br><span>Vapiano</span></p>
+        </div>
+        <div class="coupon-text-part position-relative">
+          <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 10% at your next Vapiano buy </p>
+          <ul>
+            <li>Reedeamble at all Vapiano restaurants in the India.</li>
+            <li>Not valid with any other discounts and promotions.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="scanner-img d-flex justify-content-center flex-column align-center">
+          <img src="./images/coupon-pop-images/qr-img.png" class="w-60 mb-2" alt="">
+          <p class="text-center validity mt-3">Valid until 01 December 2022</p>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
 <!-- </div> -->
     <!-- Footer -->
     <footer class="footer-bg-color">

@@ -132,3 +132,12 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
     back_layer.style.display = "none";
   } 
 });
+function showPopup(id) {
+  var popup = document.getElementById("popup" + id);
+  popup.classList.remove("d-none");
+}
+
+function hidePopup(id) {
+  var popup = document.getElementById("popup" + id);
+  popup.classList.add("d-none");
+}
