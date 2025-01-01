@@ -98,7 +98,14 @@ display: none;
   }
 /* navbar code  */
 nav {
-  padding: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
 }
 /* Popular Cities Code Starts here */
 
