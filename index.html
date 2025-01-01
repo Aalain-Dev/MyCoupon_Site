@@ -240,7 +240,7 @@
         Discovery and savings for local shopping. Food, <br> fashion, beauty,
         pharmacy and more.
       </p>
-      <div class="d-flex trending-coupon-margin justify-content-between flex-wrap">
+      <div class="d-flex trending-coupon-margin justify-content-between flex-wrap gap-20 flex-mobile-column">
         <div class="coupon-card">
           <p class="brand">AMAZON</p>
           <p class="offer mt-1">Get 75% OFF</p>
@@ -249,6 +249,57 @@
           </p>
           <div class="dashed-line"></div>
           <button class="coupon-code">GET75P</button>
+          <p class="validity">Valid until 31 October 2022</p>
+        </div>
+        <div class="coupon-card">
+          <p class="brand">SWIGGY</p>
+          <p class="offer mt-1">60% OFF </p>
+          <p class="description">
+            60% Off on Orders above Rs. 149
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">SWAG60</button>
+          <p class="validity">Valid until 31 October 2022</p>
+        </div>
+        <div class="coupon-card">
+          <p class="brand">MYNTRA</p>
+          <p class="offer mt-1">Flat 15% Off </p>
+          <p class="description">
+            Flat 15% Off on Orders above Rs. 6999
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">MYN15</button>
+          <p class="validity">Valid until 31 October 2022</p>
+        </div>
+      
+        <div class="coupon-card">
+          <p class="brand">GOIBIBO</p>
+          <p class="offer mt-1">GET 10% OFF </p>
+          <p class="description">
+            Upto 50% Off On Domestic Hotels
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">HOTEL10</button>
+          <p class="validity">Valid until 31 October 2022</p>
+        </div>
+        <div class="coupon-card">
+          <p class="brand">GODADDY</p>
+          <p class="offer mt-1">50% OFF</p>
+          <p class="description">
+            GoDaddy Promo Code: Upto 50% Off On .COM Domains
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">DOMAIN50</button>
+          <p class="validity">Valid until 31 October 2022</p>
+        </div>
+        <div class="coupon-card">
+          <p class="brand">MAKE MY TRIP</p>
+          <p class="offer mt-1">20% OFF  </p>
+          <p class="description">
+            Makemytrip Hotel Coupons: Upto 20% Off On Domestic Hotels
+          </p>
+          <div class="dashed-line"></div>
+          <button class="coupon-code">TRIP20</button>
           <p class="validity">Valid until 31 October 2022</p>
         </div>
       </div>
@@ -352,7 +403,8 @@
   <script>
 $(document).ready(function () {
   var owl = $(".owl-carousel").owlCarousel({
-    loop: true,
+    items: 3,
+    loop: false,
     margin: 10,
     nav: false, 
     dots: false,

@@ -89,12 +89,22 @@ var form = document.querySelector("#form")
   return true
 }
 // Popular Coupons js
-var star_icon = document.querySelector("#star-icon")
-var know_more_btn = document.querySelector("#know-more-btn")
-star_icon.addEventListener("click",function(){
-  star_icon.style.color= "#F0BB00";
-  know_more_btn.style.display = "block"
-})
+var star_icon = document.querySelectorAll("#star-icon");
+var know_more_btn = document.querySelectorAll("#know-more-btn");
+
+star_icon.forEach((item, index) => {
+  item.addEventListener("click", function() {
+    var btn = know_more_btn[index];
+    if (btn.classList.contains("d-none")) {
+      item.style.color = "#F0BB00"
+      btn.classList.remove("d-none");
+    } else {
+      btn.classList.add("d-none");
+      item.style.color = ""
+
+    }
+  });
+});
 document.getElementById('submit-coupon').addEventListener('click', function() {
   const brand = document.getElementById('brand_name').value;
   const offer = document.getElementById('discount').value;
@@ -104,7 +114,7 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
 
   if (Validate_Form()) {
     const couponCard = document.createElement('div');
-    couponCard.classList.add('coupon-card', 'mt-2');
+    couponCard.classList.add('coupon-card');
     couponCard.innerHTML = `
       <p class="brand">${brand}</p>
       <p class="offer mt-1">${offer}</p>
