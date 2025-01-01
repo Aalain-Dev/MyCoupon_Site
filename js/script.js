@@ -81,3 +81,10 @@ const Validate_Form = () => {
     validity_err.style.display = "block"
   }
 }
+// Popular Coupons js
+var star_icon = document.querySelector("#star-icon")
+var know_more_btn = document.querySelector("#know-more-btn")
+star_icon.addEventListener("click",function(){
+  star_icon.style.color= "#F0BB00";
+  know_more_btn.style.display = "block"
+})
