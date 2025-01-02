@@ -267,11 +267,11 @@ nav {
     width: 100%;
     background-color: #000000a4;
     top: 0;
-    z-index: 30;
-    display: none; 
+    z-index: 2000;
+    display: none;
   }
 .form-div {
-  width: 33%;
+  width: 421px;
   background-color: #fff;
   margin: 0 auto;
   padding-top: 80px;
@@ -286,7 +286,7 @@ nav {
   border-radius: 5px;
 }
 .form-text {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 600;
   color: #273238;
 }
@@ -314,7 +314,7 @@ nav {
   font-size: 34px;
   background-color: #2b9dde;
   border-radius: 50%;
-  padding: 5px 16px;
+  padding: 9px 16px;
   height: 60px;
   width: 60px;
   cursor: pointer;
@@ -486,10 +486,17 @@ transition:  all 0.3s ease-in-out;
   top: 0;
   height: 100vh;
   width: 100%;
-  background-color: #ffffffa4;
+  background-color: #000000a4;
   top: 0;
   z-index: 30;
-  display: none; 
+  /* display: flex; 
+  justify-content: center;
+  align-items: center; */
+  overflow-y: scroll;
+z-index: 1000000;
+
+}
+.popup{
 }
 .coupon-close{
   color: #004165;
@@ -561,11 +568,15 @@ transition:  all 0.3s ease-in-out;
 
 /* media query starts here */
 @media screen and (max-width: 991px) {
-/* .flex-wrap {
-  flex-wrap: nowrap;
-}.flex-mobile-column{
-  flex-direction: column;
-} */
+  .coupon-card {
+    width: 70%;
+}.justify-center-mobile{
+  justify-content: center;
+}
+.form-div{
+  width: 60%;
+}
+
 }
 @media screen and (max-width: 600px) {
 
@@ -632,9 +643,47 @@ font-weight: 600;
   overflow-y: hidden;
   margin-top: 20px !important;
 }
+.coupon-card {
+  display: none; 
+} 
+
+.trending-coupon-margin .coupon-card:nth-child(-n+2) {
+  display: block;
+}
+
+.load-more {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #2B9DDE;
+  border: 1px solid #2B9DDE;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 50px;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+.align-center-mobile{
+  align-items: center;
+}
+.form-div{
+  width: 80%;
+}
 }
 @media screen and (max-width: 400px) {
   .city-card {
     width: 167px;
+}
+.coupon-card {
+  width: 90%;
+}
+.form-text {
+  font-size: 15px;
+}
+.err {
+font-size: 14px;
 }
 }

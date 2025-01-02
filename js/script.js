@@ -94,6 +94,7 @@ var know_more_btn = document.querySelectorAll("#know-more-btn");
 
 star_icon.forEach((item, index) => {
   item.addEventListener("click", function() {
+     item.style.color = ""
     var btn = know_more_btn[index];
     if (btn.classList.contains("d-none")) {
       item.style.color = "#F0BB00"
@@ -101,7 +102,6 @@ star_icon.forEach((item, index) => {
     } else {
       btn.classList.add("d-none");
       item.style.color = ""
-
     }
   });
 });
@@ -136,8 +136,19 @@ function showPopup(id) {
   var popup = document.getElementById("popup" + id);
   popup.classList.remove("d-none");
 }
-
 function hidePopup(id) {
   var popup = document.getElementById("popup" + id);
   popup.classList.add("d-none");
+}
+let currentvisible = 2; 
+
+function loadMore() {
+  const cards = document.querySelectorAll('.trending-coupon-margin .coupon-card');
+  for (let i = currentvisible; i < currentvisible + 2 && i < cards.length; i++) {
+    cards[i].style.display = 'block';
+  }
+  currentvisible += 2;
+  if (currentvisible >= cards.length) {
+    document.querySelector('.load-more').style.display = 'none';
+  }
 }
