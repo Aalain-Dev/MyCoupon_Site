@@ -132,17 +132,17 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
     back_layer.style.display = "none";
   } 
 });
-function showPopup(id) {
+const showPopup = (id)=> {
   var popup = document.getElementById("popup" + id);
   popup.classList.remove("d-none");
 }
-function hidePopup(id) {
+const hidePopup = (id)=> {
   var popup = document.getElementById("popup" + id);
   popup.classList.add("d-none");
 }
 let currentvisible = 2; 
 
-function loadMore() {
+const loadMore= ()=> {
   const cards = document.querySelectorAll('.trending-coupon-margin .coupon-card');
   for (let i = currentvisible; i < currentvisible + 2 && i < cards.length; i++) {
     cards[i].style.display = 'block';
@@ -152,3 +152,21 @@ function loadMore() {
     document.querySelector('.load-more').style.display = 'none';
   }
 }
+// Function to show the loader
+const showLoader = () => {
+  const loader = document.querySelector(".loader-back-layer");
+  loader.style.display = "flex";
+  loader.style.opacity = "1";  
+}
+
+const  hideLoader = ()=> {
+  const loader = document.querySelector(".loader-back-layer");
+  loader.style.opacity = "0"; 
+  setTimeout(() => {
+      loader.style.display = "none"; 
+  }, 500);
+}
+document.addEventListener("DOMContentLoaded", () => {
+  showLoader();
+  setTimeout(hideLoader, 3000);
+});

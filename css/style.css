@@ -682,3 +682,32 @@ nav {
     font-size: 14px;
   }
 }
+.loader {
+  width: fit-content;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #a3303000;
+  -webkit-text-stroke: 1px #000;
+  background: linear-gradient(90deg, #0000 33%, #000 0 67%, #0000 0) 100%/300%
+    100% no-repeat text;
+  animation: l12 4s steps(14) infinite;
+}
+.loader:before {
+  content: "Loading";
+}
+@keyframes l12 {
+  to {
+    background-position: 0;
+  }
+}
+.loader-back-layer{
+height: 100vh;
+position: fixed;
+width: 100%;
+background-color: #fff;
+z-index: 1000000;
+transition: opacity 0.5s ease;
+
+}
