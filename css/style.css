@@ -1,1 +1,705 @@
-.coupon-code,.pointer{cursor:pointer}*{margin:0;padding:0;box-sizing:border-box;font-family:Montserrat,sans-serif}@font-face{font-family:Montserrat;src:url('/font/Montserrat/Montserrat-VariableFont_wght.ttf');font-display:swap}.d-flex{display:flex}.back-layer,.d-destkop-none,.d-none{display:none}.container{max-width:1250px;margin:0 auto;overflow:hidden;padding:0 10px}.img-css{object-fit:cover;object-fit:center}.w-100{width:100%}.fixed-nav{position:fixed;top:0}a{margin-bottom:0;text-decoration:none}.text-center{text-align:center}.justify-content-between{justify-content:space-between}.justify-content-center{justify-content:center}.mt-1{margin-top:10px}.mt-2{margin-top:20px}.mt-3{margin-top:30px}.mt-4{margin-top:40px}.mt-90{margin-top:90px}.flex-column{flex-direction:column}.align-center{align-items:center}.position-relative{position:relative}.position-absolute{position:absolute}.text-white{color:#fff}.w-60{width:60%!important}.text-start{text-align:left}.mb-1{margin-bottom:10px}.mb-2{margin-bottom:20px}.flex-wrap{flex-wrap:wrap}.h-100{height:100%}nav{background-color:#fff;padding:10px 20px;box-shadow:0 2px 4px rgba(0,0,0,.1)}.sticky-nav{position:sticky;top:0;z-index:1000;height:96px}.logo-width{width:191px}.bg-color{background-color:#fff3f3}.localities-padding{padding-top:50px;padding-bottom:50px}.popular-text{font-size:50px;color:#313131;font-weight:600}.mumbai-text{color:#6b6b6b;font-size:18px}.city-card{border:1px solid #dadada;background-color:#fff;width:17%;padding:5px 0;border-radius:10px}.card-number{color:#1c1c65;font-size:30px;font-weight:500}.city-name{color:#969696;font-weight:300}.brand,.offer{font-weight:700}.gap-10{gap:10px}.gap-20{gap:20px}.footer-bg-color{background-color:#2b9dde;padding:20px}.footer-text{font-size:14px;color:#fff}.coupon-card{background-color:#fbfbfb;width:30%;border-radius:10px;text-align:center;box-shadow:rgba(0,0,0,.15) 1.95px 1.95px 2.6px;padding:20px;position:relative}.form-div,.nav-main,.popular-coupon-card{box-shadow:rgba(100,100,111,.2) 0 7px 29px 0}.coupon-card:after,.coupon-card:before{content:"";position:absolute;width:40px;height:40px;background-color:#fff;border-radius:50%;top:63%;transform:translateY(-50%);border:1px solid #fbfbfb;box-shadow:rgba(0,0,0,.15) 1.95px 1.95px 2.6px inset}.dashed-line:after,.dashed-line:before{content:"";position:absolute;width:40px;height:56px;top:63%;transform:translateY(-50%);background-color:#fff;z-index:10}.dashed-line:before{left:-42px;z-index:10;background-color:#fff}.dashed-line:after{right:-42px;z-index:10}.coupon-card:before{left:-22px;box-shadow:rgba(0,0,0,.15) 1.95px 1.95px 2.6px inset}.coupon-card:after{right:-19px}.brand{font-size:16px;color:#000}.offer{font-size:40px}.description{font-size:14px;color:#000;text-align:center;line-height:1.4;margin-top:10px;border-bottom-width:4px;margin-bottom:14px;font-weight:600}.dashed-line{border-top:3px dashed #66666634}.trending-coupon-margin{margin-top:50px;padding-bottom:30px}.coupon-code{background-color:#007bff;color:#fff;font-size:16px;border:none;padding:5px 50px;border-radius:30px;font-weight:500;margin-top:10px}.err,.form-text{font-weight:600}.coupon-code:hover{background-color:#0056b3}.validity{font-size:14px;color:#888;margin-top:10px}.trending-sect{padding-top:50px}.back-layer{position:fixed;height:100vh;width:100%;background-color:#000000a4;top:0;z-index:2000}.form-div{width:421px;background-color:#fff;margin:60px auto 0;padding-top:80px;padding-bottom:60px;border-radius:10px}.add-btn,.form-submit-btn{background-color:#2b9dde;cursor:pointer}.input-padding{padding:10px 20px;border:1px solid #8080807e;border-radius:5px}.form-text{font-size:23px;color:#273238}.form-submit-btn{color:#fff;border:none;padding:10px 0;font-size:16px;border-radius:10px;font-weight:600}.form{width:60%;margin:0 auto}.desc-text,.err{margin-top:10px}.form-close{top:23px;right:25px;cursor:pointer}.add-btn{font-size:34px;border-radius:50%;padding:9px 16px;height:60px;width:60px;position:fixed;bottom:85px;right:26px}.add-btn i{font-weight:400}.err{color:#d90000}.offer-bg-color{background-color:#f1f1f1}.offer-text{font-size:45px;color:#313131;font-weight:500}.desc-text{font-size:14px;color:#6b6b6b;text-align:center}.offers-padding{padding-top:34px;padding-bottom:34px}.offers-card{margin-top:59px!important;height:340px;width:80%;margin:0 auto;overflow-y:scroll;overflow-x:hidden}.offer-card{width:35%}.custom-gap{gap:50px}.offers-card::-webkit-scrollbar{width:6px}.offers-card::-webkit-scrollbar-thumb{background-color:#40a2d5;min-height:1px}.offers-card::-webkit-scrollbar-track{background-color:transparent;border-left:5px solid #cbcbcb;border-right:5px solid transparent;border-radius:5px;margin:0 auto}.custom-image-radius{border-radius:15px}.offer-card img:hover{box-shadow:rgba(149,157,165,.2) 0 8px 24px;scale:1.01;transition:.3s ease-in-out}.popular-coupon-cards{padding:10px 10px 10px 20px;margin-top:10px;margin-bottom:10px}.popular-coupon-card{border-radius:5px;padding:50px 10px 40px;cursor:pointer;transition:.3s ease-in-out}.popular-coupon-card:hover{scale:1.03;transition:.3s ease-in-out}.grey-color-star{color:#d7d7d7}.brand-image{background-color:#d7d7d779;height:100px;width:100px;border-radius:100px}.brand-name{font-size:17px;color:#313131;font-weight:300}.brand-discount{font-size:40px;font-weight:700;color:#313131;margin-top:40px;margin-bottom:40px}.star{top:19px;left:20px;cursor:pointer}.owl-carousel .owl-stage-outer{padding:30px 10px 50px 20px}.popular-coupons-btn{background-color:#40a2d5;border:none;padding:15px 20px;border-radius:40px;font-weight:500;cursor:pointer;transition:.3s ease-in-out}.popular-coupons-btn:hover{background-color:#0896e2;transition:.3s ease-in-out}.nav-main{width:121px;padding:13px;border-radius:100px}.nav-main i{font-size:20px;cursor:pointer;padding:10px}.nav-main i.active{background-color:#40a2d5;color:#fff;border-radius:50%}.pop-coupon{background-color:#f7f7f7;width:410px;border-radius:10px;padding:71px 57px 33px;overflow:hidden}.back-layer-hover{position:fixed;height:100vh;width:100%;background-color:#000000a4;top:0;overflow-y:scroll;z-index:1000000}.coupon-close{color:#004165;border:1px solid #004165;padding:5px;border-radius:50%;right:27px;top:23px;font-size:16px;font-weight:600}.coupon-offer{font-size:24px;font-weight:600}.coupon-offer span{font-size:18px}.coupon-text-disc{font-weight:700;font-size:16px}.coupon-text-part ul li{font-weight:600;margin-top:10px;text-align:left;font-size:14px}.top-section{padding-bottom:40px;border-bottom:4px dashed #9b989865}.bottom-section{padding-top:40px}.coupon-text-part:after,.coupon-text-part:before{content:"";position:absolute;width:60px;height:60px;border-radius:50%;top:171px;background-color:#000000a4;left:-86px}.coupon-text-part:after{right:12px;top:170px;left:109%}@media screen and (max-width:991px){.coupon-card{width:70%}.justify-center-mobile{justify-content:center}.form-div{width:60%}}@media screen and (max-width:600px){.desc-text,.offer-text{font-weight:600}.d-destkop-none,.trending-coupon-margin .coupon-card:nth-child(-n+2){display:block}.coupon-card,.d-mobile-none{display:none}.custom-mobile-width{width:120px}nav{padding:5px}.popular-text{font-size:30px}.mumbai-text{font-size:14px;line-height:1.9;margin-top:10px}.card-number{font-size:20px}.city-name,.validity{font-size:12px}.mt-90{margin-top:22px}.localities-padding{padding-top:35px;padding-bottom:35px}.flex-mobile-column{flex-direction:column}.flex-mobile-row{flex-direction:row;justify-content:center}.city-card{width:173px}.mt-2-none{margin-top:0}.offer-text{font-size:27px}.brand-name,.load-more{font-size:16px}.offer-card{width:50%}.custom-gap{gap:25px}.offers-card{height:auto;overflow-y:hidden;margin-top:20px!important}.load-more{padding:10px 20px;background-color:#fff;color:#2b9dde;border:1px solid #2b9dde;border-radius:50px;cursor:pointer;font-weight:800}.load-more:hover{background-color:#0056b3}.align-center-mobile{align-items:center}.form-div,.pop-coupon{width:80%}.sticky-nav{height:69px}.brand-discount{font-size:28px}.grey-color-star{color:#d7d7d7;font-size:25px}.mobile-padding{padding-bottom:0}.owl-carousel .owl-stage-outer{padding:30px 10px 17px 0}.trending-sect{padding-top:30px}.trending-coupon-margin{margin-top:25px;padding-bottom:30px}.coupon-text-part:after{right:12px;top:170px;left:110%}}@media screen and (max-width:400px){.city-card{width:167px}.coupon-card{width:90%}.form-text{font-size:15px}.err{font-size:14px}}.loader{width:fit-content;font-size:40px;font-family:monospace;font-weight:700;text-transform:uppercase;color:#a3303000;-webkit-text-stroke:1px #000;background:linear-gradient(90deg,#0000 33%,#000 0 67%,#0000 0) 100%/300% 100% no-repeat text;animation:4s steps(14) infinite l12}.popular-coupon-card{width:90%}.loader:before{content:"Loading"}@keyframes l12{to{background-position:0}}.loader-back-layer{height:100vh;position:fixed;width:100%;background-color:#fff;z-index:1000000;transition:opacity .5s}.h-auto{height:auto}
+.coupon-code,
+.pointer {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("/font/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
+}
+.d-flex {
+  display: flex;
+}
+.back-layer,
+.d-destkop-none,
+.d-none {
+  display: none;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.img-css {
+  object-fit: cover;
+  object-fit: center;
+}
+.w-100 {
+  width: 100%;
+}
+.fixed-nav {
+  position: fixed;
+  top: 0;
+}
+a {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+.mt-4 {
+  margin-top: 40px;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.text-white {
+  color: #fff;
+}
+/* .w-60 {
+  width: 60% !important;
+} */
+.text-start {
+  text-align: left;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.h-100 {
+  height: 100%;
+}
+nav {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 96px;
+}
+.logo-width {
+  width: 191px;
+}
+.bg-color {
+  background-color: #fff3f3;
+}
+.localities-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.popular-text {
+  font-size: 50px;
+  color: #313131;
+  font-weight: 600;
+}
+.mumbai-text {
+  color: #6b6b6b;
+  font-size: 18px;
+}
+.city-card {
+  border: 1px solid #dadada;
+  background-color: #fff;
+  width: 17%;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.card-number {
+  color: #1c1c65;
+  font-size: 30px;
+  font-weight: 500;
+}
+.city-name {
+  color: #969696;
+  font-weight: 300;
+}
+.brand,
+.offer {
+  font-weight: 700;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.footer-bg-color {
+  background-color: #2b9dde;
+  padding: 20px;
+}
+.footer-text {
+  font-size: 14px;
+  color: #fff;
+}
+.coupon-card {
+  background-color: #fbfbfb;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  position: relative;
+}
+.form-div,
+.nav-main,
+.popular-coupon-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.coupon-card:after,
+.coupon-card:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 63%;
+  transform: translateY(-50%);
+  border: 1px solid #fbfbfb;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
+}
+.dashed-line:after,
+.dashed-line:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 56px;
+  top: 63%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  z-index: 10;
+}
+.dashed-line:before {
+  left: -42px;
+  z-index: 10;
+  background-color: #fff;
+}
+.dashed-line:after {
+  right: -42px;
+  z-index: 10;
+}
+.coupon-card:before {
+  left: -22px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
+}
+.coupon-card:after {
+  right: -19px;
+}
+.brand {
+  font-size: 16px;
+  color: #000;
+}
+.offer {
+  font-size: 40px;
+}
+.description {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 10px;
+  border-bottom-width: 4px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+.dashed-line {
+  border-top: 3px dashed #66666634;
+}
+.trending-coupon-margin {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.coupon-code {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 5px 50px;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.err,
+.form-text {
+  font-weight: 600;
+}
+.coupon-code:hover {
+  background-color: #0056b3;
+}
+.validity {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+.trending-sect {
+  padding-top: 50px;
+}
+.back-layer {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000a4;
+  top: 0;
+  z-index: 2000;
+}
+.form-div {
+  width: 421px;
+  background-color: #fff;
+  margin: 60px auto 0;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+}
+.add-btn,
+.form-submit-btn {
+  background-color: #2b9dde;
+  cursor: pointer;
+}
+.input-padding {
+  padding: 10px 20px;
+  border: 1px solid #8080807e;
+  border-radius: 5px;
+}
+.form-text {
+  font-size: 23px;
+  color: #273238;
+}
+.form-submit-btn {
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+.desc-text,
+.err {
+  margin-top: 10px;
+}
+.form-close {
+  top: 23px;
+  right: 25px;
+  cursor: pointer;
+}
+.add-btn {
+  font-size: 34px;
+  border-radius: 50%;
+  padding: 9px 16px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 85px;
+  right: 26px;
+}
+.add-btn i {
+  font-weight: 400;
+}
+.err {
+  color: #d90000;
+}
+.offer-bg-color {
+  background-color: #f1f1f1;
+}
+.offer-text {
+  font-size: 45px;
+  color: #313131;
+  font-weight: 500;
+}
+.desc-text {
+  font-size: 14px;
+  color: #6b6b6b;
+  text-align: center;
+}
+.offers-padding {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.offers-card {
+  margin-top: 59px !important;
+  height: 340px;
+  width: 80%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.offer-card {
+  width: 35%;
+}
+.custom-gap {
+  gap: 50px;
+}
+.offers-card::-webkit-scrollbar {
+  width: 6px;
+}
+.offers-card::-webkit-scrollbar-thumb {
+  background-color: #40a2d5;
+  min-height: 1px;
+}
+.offers-card::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-left: 5px solid #cbcbcb;
+  border-right: 5px solid transparent;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.custom-image-radius {
+  border-radius: 15px;
+}
+.offer-card img:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  scale: 1.01;
+  transition: 0.3s ease-in-out;
+}
+.popular-coupon-cards {
+  padding: 10px 10px 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.popular-coupon-card {
+  border-radius: 5px;
+  padding: 50px 10px 40px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.popular-coupon-card:hover {
+  scale: 1.03;
+  transition: 0.3s ease-in-out;
+}
+.grey-color-star {
+  color: #d7d7d7;
+}
+.brand-image {
+  background-color: #d7d7d779;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+.brand-name {
+  font-size: 17px;
+  color: #313131;
+  font-weight: 300;
+}
+.brand-discount {
+  font-size: 40px;
+  font-weight: 700;
+  color: #313131;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.star {
+  top: 19px;
+  left: 20px;
+  cursor: pointer;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 30px 10px 50px 20px;
+}
+.popular-coupons-btn {
+  background-color: #40a2d5;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.popular-coupons-btn:hover {
+  background-color: #0896e2;
+  transition: 0.3s ease-in-out;
+}
+.nav-main {
+  width: 121px;
+  padding: 13px;
+  border-radius: 100px;
+}
+.nav-main i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+.nav-main i.active {
+  background-color: #40a2d5;
+  color: #fff;
+  border-radius: 50%;
+}
+.pop-coupon {
+  background-color: #f7f7f7;
+  width: 410px;
+  border-radius: 10px;
+  padding: 71px 57px 33px;
+  overflow: hidden;
+}
+.back-layer-hover {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000a4;
+  top: 0;
+  overflow-y: scroll;
+  z-index: 1000000;
+}
+.coupon-close {
+  color: #004165;
+  border: 1px solid #004165;
+  padding: 5px;
+  border-radius: 50%;
+  right: 27px;
+  top: 23px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.coupon-offer {
+  font-size: 24px;
+  font-weight: 600;
+}
+.coupon-offer span {
+  font-size: 18px;
+}
+.coupon-text-disc {
+  font-weight: 700;
+  font-size: 16px;
+}
+.coupon-text-part ul li {
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.top-section {
+  padding-bottom: 40px;
+  border-bottom: 4px dashed #9b989865;
+}
+.bottom-section {
+  padding-top: 40px;
+}
+.coupon-text-part:after,
+.coupon-text-part:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 171px;
+  background-color: #000000a4;
+  left: -86px;
+}
+.coupon-text-part:after {
+  right: 12px;
+  top: 170px;
+  left: 109%;
+}
+@media screen and (max-width: 991px) {
+  .coupon-card {
+    width: 70%;
+  }
+  .justify-center-mobile {
+    justify-content: center;
+  }
+  .form-div {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .desc-text,
+  .offer-text {
+    font-weight: 600;
+  }
+  .d-destkop-none,
+  .trending-coupon-margin .coupon-card:nth-child(-n + 2) {
+    display: block;
+  }
+  .coupon-card,
+  .d-mobile-none {
+    display: none;
+  }
+  .custom-mobile-width {
+    width: 120px;
+  }
+  nav {
+    padding: 5px;
+  }
+  .popular-text {
+    font-size: 30px;
+  }
+  .mumbai-text {
+    font-size: 14px;
+    line-height: 1.9;
+    margin-top: 10px;
+  }
+  .card-number {
+    font-size: 20px;
+  }
+  .city-name,
+  .validity {
+    font-size: 12px;
+  }
+  .mt-90 {
+    margin-top: 22px;
+  }
+  .localities-padding {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .flex-mobile-column {
+    flex-direction: column;
+  }
+  .flex-mobile-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .city-card {
+    width: 173px;
+  }
+  .mt-2-none {
+    margin-top: 0;
+  }
+  .offer-text {
+    font-size: 27px;
+  }
+  .brand-name,
+  .load-more {
+    font-size: 16px;
+  }
+  .offer-card {
+    width: 50%;
+  }
+  .custom-gap {
+    gap: 25px;
+  }
+  .offers-card {
+    height: auto;
+    overflow-y: hidden;
+    margin-top: 20px !important;
+  }
+  .load-more {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2b9dde;
+    border: 1px solid #2b9dde;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 800;
+  }
+  .load-more:hover {
+    background-color: #0056b3;
+  }
+  .align-center-mobile {
+    align-items: center;
+  }
+  .form-div,
+  .pop-coupon {
+    width: 80%;
+  }
+  .sticky-nav {
+    height: 69px;
+  }
+  .brand-discount {
+    font-size: 28px;
+  }
+  .grey-color-star {
+    color: #d7d7d7;
+    font-size: 25px;
+  }
+  .mobile-padding {
+    padding-bottom: 0;
+  }
+  .owl-carousel .owl-stage-outer {
+    padding: 30px 10px 17px 0;
+  }
+  .trending-sect {
+    padding-top: 30px;
+  }
+  .trending-coupon-margin {
+    margin-top: 25px;
+    padding-bottom: 30px;
+  }
+  .coupon-text-part:after {
+    right: 12px;
+    top: 170px;
+    left: 110%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .city-card {
+    width: 167px;
+  }
+  .coupon-card {
+    width: 90%;
+  }
+  .form-text {
+    font-size: 15px;
+  }
+  .err {
+    font-size: 14px;
+  }
+}
+.loader {
+  width: fit-content;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a3303000;
+  -webkit-text-stroke: 1px #000;
+  background: linear-gradient(90deg, #0000 33%, #000 0 67%, #0000 0) 100%/300%
+    100% no-repeat text;
+  animation: 4s steps(14) infinite l12;
+}
+.popular-coupon-card {
+  width: 90%;
+}
+.loader:before {
+  content: "Loading";
+}
+@keyframes l12 {
+  to {
+    background-position: 0;
+  }
+}
+.loader-back-layer {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000000;
+  transition: opacity 0.5s;
+}
+.h-auto {
+  height: auto;
+}
