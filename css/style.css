@@ -672,6 +672,25 @@ nav {
   .sticky-nav {
     height: 69px;
 }
+.brand-name {
+  font-size: 16px;
+}
+.brand-discount {
+  font-size: 28px;
+}
+.validity {
+  font-size: 12px;
+}
+.grey-color-star {
+  color: #d7d7d7;
+  font-size: 25px;
+}
+.mobile-padding {
+  padding-bottom: 0px;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 30px 10px 17px 20px;
+}
 }
 @media screen and (max-width: 400px) {
   .city-card {
