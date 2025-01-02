@@ -108,6 +108,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  height: 96px;
 }
 /* Popular Cities Code Starts here */
 
@@ -573,6 +574,7 @@ nav {
   .form-div {
     width: 60%;
   }
+
 }
 @media screen and (max-width: 600px) {
   .d-destkop-none {
@@ -667,6 +669,9 @@ nav {
   .form-div {
     width: 80%;
   }
+  .sticky-nav {
+    height: 69px;
+}
 }
 @media screen and (max-width: 400px) {
   .city-card {
