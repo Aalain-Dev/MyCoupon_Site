@@ -97,7 +97,9 @@ a {
 .d-none {
   display: none;
 }
-
+.h-100{
+  height: 100%;
+}
 /* navbar code  */
 nav {
   background-color: #fff;
@@ -109,6 +111,9 @@ nav {
   top: 0;
   z-index: 1000;
   height: 96px;
+}
+.logo-width{
+  width: 191px;
 }
 /* Popular Cities Code Starts here */
 
