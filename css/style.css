@@ -478,7 +478,7 @@ nav {
   padding-left: 57px;
   padding-right: 57px;
   padding-bottom: 33px;
-  /* box-shadow: -1px 3px 10px -3px rgba(0,0,0,0.75); */
+  overflow: hidden;
 }
 .back-layer-hover {
   position: fixed;
@@ -508,7 +508,7 @@ nav {
   font-weight: 600;
 }
 .coupon-offer {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
 .coupon-offer span {
@@ -516,12 +516,13 @@ nav {
 }
 .coupon-text-disc {
   font-weight: bold;
-  font-size: 19px;
+  font-size: 16px;
 }
 .coupon-text-part ul li {
   font-weight: 600;
   margin-top: 10px;
   text-align: left;
+  font-size: 14px;
 }
 .top-section {
   padding-bottom: 40px;
@@ -537,10 +538,9 @@ nav {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  top: 173px;
-  background-color: #fff;
+  top: 171px;
+  background-color: #000000a4;
   left: -86px;
-  box-shadow: 10px;
 }
 .coupon-text-part:after {
   right: 12px;
@@ -698,6 +698,14 @@ nav {
 .trending-coupon-margin {
   margin-top: 25px;
   padding-bottom: 30px;
+}
+.pop-coupon {
+  width: 80%;
+}
+.coupon-text-part:after {
+  right: 12px;
+  top: 170px;
+  left: 110%;
 }
 }
 @media screen and (max-width: 400px) {
