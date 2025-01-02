@@ -7,6 +7,7 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('/font/Montserrat/Montserrat-VariableFont_wght.ttf') ;
+    font-display: swap;
 }
 .d-flex {
   display: flex;
