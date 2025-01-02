@@ -34,6 +34,10 @@
 .w-100 {
   width: 100%;
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+}
 a {
   margin-bottom: 0;
   text-decoration: none;
@@ -56,6 +60,9 @@ a {
 .mt-3 {
   margin-top: 30px;
 }
+.mt-4 {
+  margin-top: 40px;
+}
 .mt-90 {
   margin-top: 90px;
 }
@@ -74,11 +81,14 @@ a {
 .text-white {
   color: #fff;
 }
-.w-60 {
+/* .w-60 {
   width: 60% !important;
-}
+} */
 .text-start {
   text-align: left;
+}
+.mb-1 {
+  margin-bottom: 10px;
 }
 .mb-2 {
   margin-bottom: 20px;
@@ -417,6 +427,9 @@ nav {
   left: 20px;
   cursor: pointer;
 }
+.owl-carousel .owl-stage-outer {
+  padding: 30px 10px 50px 20px;
+}
 .popular-coupons-btn {
   background-color: #40a2d5;
   border: none;
@@ -626,6 +639,9 @@ nav {
   .mobile-padding {
     padding-bottom: 0;
   }
+  .owl-carousel .owl-stage-outer {
+    padding: 30px 10px 17px 0;
+  }
   .trending-sect {
     padding-top: 30px;
   }
@@ -653,8 +669,36 @@ nav {
     font-size: 14px;
   }
 }
+.loader {
+  width: fit-content;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a3303000;
+  -webkit-text-stroke: 1px #000;
+  background: linear-gradient(90deg, #0000 33%, #000 0 67%, #0000 0) 100%/300%
+    100% no-repeat text;
+  animation: 4s steps(14) infinite l12;
+}
 .popular-coupon-card {
   width: 90%;
+}
+.loader:before {
+  content: "Loading";
+}
+@keyframes l12 {
+  to {
+    background-position: 0;
+  }
+}
+.loader-back-layer {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000000;
+  transition: opacity 0.5s;
 }
 .h-auto {
   height: auto;
