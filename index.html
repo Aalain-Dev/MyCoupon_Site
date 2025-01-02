@@ -318,48 +318,50 @@
     <!-- PopUp Form -->
     <section>
       <div class="back-layer d-none">
-        <div class="form-div d-flex justify-content-center align-center position-relative">
-          <i class="fa-solid fa-x position-absolute form-close"></i>
-          <div class="form ">
-            <p class="text-start form-text">Enter Coupon Details</p>
-            <form action="" id = "form" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
-              <input
-                type="text"
-                placeholder="Brand / Company Name"
-                class="mt-1 input-padding"  id = "brand_name"
-              />
-              <p id = "brand_err" class="err"></p>
-              <input
-                type="text"
-                placeholder="Discount"
-                class="mt-1 input-padding"  id = "discount"
-              />
-              <p id = "disc_err" class="err"></p>
+    <div class="d-flex justify-content-center align-center">
+      <div class="form-div d-flex justify-content-center align-center position-relative">
+        <i class="fa-solid fa-x position-absolute form-close"></i>
+        <div class="form ">
+          <p class="text-start form-text">Enter Coupon Details</p>
+          <form action="" id = "form" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
+            <input
+              type="text"
+              placeholder="Brand / Company Name"
+              class="mt-1 input-padding"  id = "brand_name"
+            />
+            <p id = "brand_err" class="err"></p>
+            <input
+              type="text"
+              placeholder="Discount"
+              class="mt-1 input-padding"  id = "discount"
+            />
+            <p id = "disc_err" class="err"></p>
 
-              <input
-                type="text"
-                placeholder="Offer Details"
-                class="mt-1 input-padding"  id = "offer_details"
-              />
-              <p id = "offer_err" class="err"></p>
+            <input
+              type="text"
+              placeholder="Offer Details"
+              class="mt-1 input-padding"  id = "offer_details"
+            />
+            <p id = "offer_err" class="err"></p>
 
-              <input
-                type="text"
-                placeholder="Coupon Code"
-                class="mt-1 input-padding"  id = "coupon_code"
-              />
-              <p id = "coupon_err" class="err"></p>
-              <input
-                type="text"
-                placeholder="Validity"
-                class="mt-1 input-padding"  id = "validity"
-              />
-              <p id = "validity_err" class="err"></p>
+            <input
+              type="text"
+              placeholder="Coupon Code"
+              class="mt-1 input-padding"  id = "coupon_code"
+            />
+            <p id = "coupon_err" class="err"></p>
+            <input
+              type="text"
+              placeholder="Validity"
+              class="mt-1 input-padding"  id = "validity"
+            />
+            <p id = "validity_err" class="err"></p>
 
-              <button class="form-submit-btn mt-2" id = "submit-coupon">Submit</button>
-            </form>
-          </div>
+            <button class="form-submit-btn mt-2" id = "submit-coupon">Submit</button>
+          </form>
         </div>
+      </div>
+    </div>
       </div>
     </section>
     <!-- coupon code -->
