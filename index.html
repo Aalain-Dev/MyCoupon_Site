@@ -6,9 +6,16 @@
     
     <title>My Coupon Site</title>
     <!-- Preload and optimize CSS links -->
-    <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" /> -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" media="print" onload="this.media='all'">
+
+    <noscript>
+      <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css">
+    </noscript>
+
     <!-- Owl Carousel CSS -->
     <link rel="preload" href="./caraousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" as="script">
     <link rel="stylesheet" href="./caraousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
@@ -45,7 +52,7 @@
           />
           <img
           src="./images/mobile-banner-img.svg"
-          class="img-css w-100 d-destkop-none"
+          class="img-css w-100 d-destkop-none h-100"
           alt="Banner Img"
           title="Banner Img"
         />
@@ -519,7 +526,7 @@
    <!-- Aos Script -->
    <script src="./Aos/aos-master/dist/aos.js" defer ></script>
 
-  <script src="./js/script.js" ></script>
+  <script src="./js/script.js" async></script>
   <script>
 $(document).ready(function () {
   var owl = $(".owl-carousel").owlCarousel({
