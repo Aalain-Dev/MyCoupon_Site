@@ -17,9 +17,9 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-   <div class="d-flex justify-content-center align-center loader-back-layer">
+   <!-- <div class="d-flex justify-content-center align-center loader-back-layer">
     <div class="loader"></div>  
-   </div>
+   </div> -->
     <!-- Navbar Code  -->
     <nav class="sticky-nav">
       <div class="container">
@@ -107,7 +107,7 @@
         <p class="text-center mumbai-text  mt-1">Our members most loved stores</p>
         <div class="container">
           <div class="popular-coupon-cards">
-              <div class="owl-carousel owl-theme">
+              <div class="owl-carousel owl-theme d-flex justify-content-center align-center">
                 <!-- Mc donalds card -->
                 <div class="popular-coupon-card position-relative "  data-aos="flip-up" data-aos-duration="2000" >
                   <div class="star position-absolute  ">
@@ -368,7 +368,8 @@
     </div>
 <!-- Hover Coupon -->
   <!-- mc donalds -->
-<div class="back-layer-hover popup d-none" id = "popup1" onclick="hidePopup(1)" >
+<div class="popup d-none" id = "popup1" onclick="hidePopup(1)" >
+<div class="d-flex justify-content-center align-center back-layer-hover ">
   <section class="d-flex justify-content-center " >
     <div class="pop-coupon position-relative ">
       <div class="d-flex flex-column justify-content-center align-center">
@@ -399,8 +400,10 @@
     </div>
      </section>
 </div>
+</div>
   <!-- kfc coupon -->
-  <div class="back-layer-hover popup d-none" id = "popup2" onclick="hidePopup(2)">
+  <div class=" popup d-none" id = "popup2" onclick="hidePopup(2)">
+  <div class="d-flex justify-content-center align-center back-layer-hover">
     <section class="d-flex justify-content-center popup"   >
       <div class="pop-coupon position-relative ">
         <div class="d-flex flex-column justify-content-center align-center">
@@ -432,8 +435,10 @@
       </div>
        </section>
   </div>
+  </div>
 <!-- starbucks -->
-<div class="back-layer-hover popup d-none" id = "popup3" onclick="hidePopup(3)">
+<div class=" popup d-none" id = "popup3" onclick="hidePopup(3)">
+ <div class="d-flex justify-content-center align-center back-layer-hover">
   <section class="d-flex justify-content-center popup  "  >
     <div class="pop-coupon position-relative ">
       <div class="d-flex flex-column justify-content-center align-center">
@@ -463,6 +468,7 @@
       </div>
     </div>
      </section>
+ </div>
 </div>
 <!-- vapino -->
 <div class="back-layer-hover popup d-none" id = "popup4" onclick="hidePopup(4)">
@@ -523,7 +529,8 @@ $(document).ready(function () {
     dots: false,
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        stagePadding: 40, 
       },
       600: {
         items: 2
@@ -534,7 +541,9 @@ $(document).ready(function () {
     }
   });
 
-  $("#prev").click(function () {
+
+});
+$("#prev").click(function () {
     owl.trigger("prev.owl.carousel");
     $(this).addClass("active");
     $("#next").removeClass("active");
@@ -545,8 +554,6 @@ $(document).ready(function () {
     $(this).addClass("active");
     $("#prev").removeClass("active");
   });
-});
-
 
   </script>
 </html>

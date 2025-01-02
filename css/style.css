@@ -398,7 +398,7 @@ nav {
   margin-bottom: 10px;
 }
 .popular-coupon-card {
-  width: 340px;
+  width: 85%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
   padding: 50px 10px 40px 10px;
@@ -543,9 +543,9 @@ nav {
   box-shadow: 10px;
 }
 .coupon-text-part:after {
-  /* right: 12px; */
+  right: 12px;
   top: 170px;
-  left: 324px;
+  left: 109%;
 }
 .coupon-offer:before,
 .coupon-offer:after {
@@ -698,6 +698,9 @@ nav {
   background: linear-gradient(90deg, #0000 33%, #000 0 67%, #0000 0) 100%/300%
     100% no-repeat text;
   animation: l12 4s steps(14) infinite;
+}
+.popular-coupon-card {
+  width: 90%;
 }
 .loader:before {
   content: "Loading";
