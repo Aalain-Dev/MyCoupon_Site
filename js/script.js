@@ -105,12 +105,17 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
     const couponcard = document.createElement('div');
     couponcard.classList.add('coupon-card','new-added-coupon-card');
     couponcard.innerHTML = `
+    <div class="top">
       <p class="brand">${brand}</p>
       <p class="offer mt-1">${offer}</p>
       <p class="description">${description}</p>
-      <div class="dashed-line"></div>
+   </div>
+    <div class="bottom">
+
       <button class="coupon-code">${couponCode}</button>
       <p class="validity">Valid until ${validity}</p>
+   </div>
+
     `;
     brand.value = '';
     offer.value = '';

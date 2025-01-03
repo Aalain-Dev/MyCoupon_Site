@@ -117,8 +117,12 @@ nav {
   background-color: #fff3f3;
 }
 .localities-padding {
-  padding-top: 50px;
+  padding-top: 61px;
   padding-bottom: 50px;
+  margin-top: -10px;
+}
+.popular-margin-top{
+  margin-top: 20px;
 }
 .popular-text {
   font-size: 50px;
@@ -169,13 +173,19 @@ nav {
   border-radius: 10px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding: 20px;
+  padding: 14px 32px;
   position: relative;
 }
+.top{
+  border-bottom: 2px dashed #66666654;
+}
 .form-div,
-.nav-main,
-.popular-coupon-card {
+.nav-main
+ {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.popular-coupon-card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .coupon-card:after,
 .coupon-card:before {
@@ -190,8 +200,8 @@ nav {
   border: 1px solid #fbfbfb;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
 }
-.dashed-line:after,
-.dashed-line:before {
+.top:after,
+.top:before {
   content: "";
   position: absolute;
   width: 40px;
@@ -201,12 +211,12 @@ nav {
   background-color: #fff;
   z-index: 10;
 }
-.dashed-line:before {
+.top:before {
   left: -42px;
   z-index: 10;
   background-color: #fff;
 }
-.dashed-line:after {
+.top:after {
   right: -42px;
   z-index: 10;
 }
@@ -662,6 +672,12 @@ nav {
       font-size: 20px;
       font-weight: 600;
   }
+  .offer {
+    font-size: 28px;
+}
+.coupon-code{
+font-size: 14px;
+}
 }
 @media screen and (max-width: 400px) {
   .city-card {

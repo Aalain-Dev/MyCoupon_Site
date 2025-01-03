@@ -7,6 +7,7 @@
     <title>My Coupon Site</title>
     <!-- Preload and optimize CSS links -->
     <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" />
+    <!-- Css Link -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Owl Carousel CSS -->
     <link rel="preload" href="./caraousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" as="script">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="./caraousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <!-- AOS (Animate on Scroll) -->
     <link href="./Aos/aos-master/dist/aos.css" rel="stylesheet" as="script">
+    <!-- Fav Icon -->
     <link rel="icon" href="./images/fav-icon/fav-icon.png" type="image/x-icon">
 
   </head>
@@ -31,8 +33,6 @@
         </a>
       </div>
     </nav>
-    
-    
     <!-- banner section start -->
     <section class="">
       <a href="#">
@@ -55,7 +55,7 @@
     <!-- localities starts here -->
     <section class="bg-color localities-padding ">
       <div class="container">
-        <h2 class="text-center popular-text">Popular Localities</h2>
+        <h2 class="text-center popular-text ">Popular Localities</h2>
         <p class="text-center mumbai-text">in and around Mumbai</p>
         <div class="city-cards mt-90 d-flex flex-column flex-mobile-row gap-10">
           <div class="d-flex justify-content-center gap-10 flex-mobile-column">
@@ -104,7 +104,7 @@
     </section>
     <!-- Popular Coupons starts here -->
      <section class="localities-padding mobile-padding">
-      <h2 class="text-center popular-text">Popular Coupons </h2>
+      <h2 class="text-center popular-text popular-margin-top">Popular Coupons </h2>
         <p class="text-center mumbai-text  mt-1">Our members most loved stores</p>
         <div class="container">
           <div class="popular-coupon-cards">
@@ -197,6 +197,142 @@
           </div>
         </div>
      </section>
+     <!-- Hover Coupon -->
+  <!-- mc donalds -->
+<div class="popup d-none" id = "popup1" onclick="hidePopup(1)" >
+  <div class="d-flex justify-content-center align-center back-layer-hover ">
+    <section class="d-flex justify-content-center " >
+      <div class="pop-coupon position-relative ">
+        <div class="d-flex flex-column justify-content-center align-center">
+          <div class="top-section">
+            <i class="fa-solid fa-x position-absolute coupon-close pointer" ></i>
+            <div class="d-flex justify-content-between align-center">  
+              <div class="image">
+                <img src="./images/popular-coupon-images/macdonalds-img.webp" class="w-100 h-auto" alt="McDonalds" title="McDonalds" >
+              </div>
+              <p class="coupon-offer ">30% OFF <br><span>McDonalds</span></p>
+            </div>
+            <div class="coupon-text-part position-relative">
+              <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 25% at your next McDonalds buy </p>
+              <ul>
+                <li>Reedea  mble at all McDonalds restaurants in the UK.</li>
+                <li>Not valid with any other discounts and promotions.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-section">
+            <div class="scanner-img d-flex justify-content-center flex-column align-center">
+              <img src="./images/coupon-pop-images/qr-img.webp" loading="lazy" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
+              <p class="text-center validity mt-3">Valid until 01 December 2022</p>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+       </section>
+  </div>
+  </div>
+    <!-- kfc coupon -->
+    <div class=" popup d-none" id = "popup2" onclick="hidePopup(2)">
+    <div class="d-flex justify-content-center align-center back-layer-hover">
+      <section class="d-flex justify-content-center popup"   >
+        <div class="pop-coupon position-relative ">
+          <div class="d-flex flex-column justify-content-center align-center">
+            <div class="top-section">
+              <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
+              <div class="d-flex justify-content-between align-center">  
+                <div class="image">
+                  <img src="./images/popular-coupon-images/kfc-logo.webp" class="w-100 h-auto" alt="Kfc " title="Kfc ">
+                </div>
+                <p class="coupon-offer ">25% OFF <br><span>KFC</span></p>
+              </div>
+              <div class="coupon-text-part position-relative">
+                <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 25% at your next KFC buy </p>
+                <ul>
+                  <li>Reedeamble at all KFC restaurants in the UK.</li>
+                  <li>Not valid with any other discounts and promotions.</li>
+                  <li>No cash value.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-section">
+              <div class="scanner-img d-flex justify-content-center flex-column align-center">
+                <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
+                <p class="text-center validity mt-3">Valid until 01 December 2022</p>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+         </section>
+    </div>
+    </div>
+  <!-- starbucks -->
+  <div class=" popup d-none" id = "popup3" onclick="hidePopup(3)">
+   <div class="d-flex justify-content-center align-center back-layer-hover">
+    <section class="d-flex justify-content-center popup  "  >
+      <div class="pop-coupon position-relative ">
+        <div class="d-flex flex-column justify-content-center align-center">
+          <div class="top-section">
+            <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
+            <div class="d-flex justify-content-between align-center">  
+              <div class="image">
+                <img src="./images/popular-coupon-images/starbucks-logo.webp" loading="lazy" class="w-100 h-auto" alt="StarBucks" title="StarBucks">
+              </div>
+              <p class="coupon-offer ">10% OFF <br><span>StarBucks</span></p>
+            </div>
+            <div class="coupon-text-part position-relative">
+              <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 10% at your next StarBucks buy </p>
+              <ul>
+                <li>Reedeamble at all StarBucks restaurants in the India.</li>
+                <li>Not valid with any other discounts and promotions.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-section">
+            <div class="scanner-img d-flex justify-content-center flex-column align-center">
+              <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
+              <p class="text-center validity mt-3">Valid until 01 December 2022ss</p>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+       </section>
+   </div>
+  </div>
+  <!-- vapino -->
+  <div class=" popup d-none" id = "popup4" onclick="hidePopup(4)">
+    <section class="d-flex justify-content-center align-center back-layer-hover"  >
+      <div class="pop-coupon position-relative ">
+        <div class="d-flex flex-column justify-content-center align-center">
+          <div class="top-section">
+            <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
+            <div class="d-flex justify-content-between align-center">  
+              <div class="image">
+                <img src="./images/popular-coupon-images/vapiano-logo.webp" class="w-100 h-auto" alt="Vapiano" title="Vapiano">
+              </div>
+              <p class="coupon-offer ">10% OFF <br><span>Vapiano</span></p>
+            </div>
+            <div class="coupon-text-part position-relative">
+              <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 10% at your next Vapiano buy </p>
+              <ul>
+                <li>Reedeamble at all Vapiano restaurants in the India.</li>
+                <li>Not valid with any other discounts and promotions.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-section">
+            <div class="scanner-img d-flex justify-content-center flex-column align-center">
+              <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2" alt="Qr Code" title="Qr Code">
+              <p class="text-center validity mt-3">Valid until 01 December 2022</p>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+       </section>
+  </div>
     <!-- Offers you will love starts here -->
      <section class="offer-bg-color offers-padding">
       <div class="container">
@@ -250,65 +386,89 @@
       </p>
       <div class="d-flex trending-coupon-margin justify-content-between flex-wrap gap-20  justify-center-mobile align-center-mobile flex-mobile-column" >
         <div class="coupon-card"  data-aos="zoom-out"  data-aos="zoom-out">
-            <p class="brand">AMAZON</p>
+            <div class="top">
+              <p class="brand">AMAZON</p>
             <p class="offer mt-1">Get 75% OFF</p>
             <p class="description">
               Great Indian Festival: Upto 75% Off on Computers and Peripherals
             </p>
-            <div class="dashed-line"></div>
-            <button class="coupon-code">GET75P</button>
-            <p class="validity">Valid until 31 October 2022</p>
+            </div>
+            <div class="bottom">
+              <button class="coupon-code">GET75P</button>
+              <p class="validity">Valid until 31 October 2022</p>
+            </div>
+           
           </div>
           <div class="coupon-card" data-aos="zoom-out">
+           <div class="top">
             <p class="brand">SWIGGY</p>
             <p class="offer mt-1">60% OFF </p>
             <p class="description">
               60% Off on Orders above Rs. 149
             </p>
-            <div class="dashed-line"></div>
-            <button class="coupon-code">SWAG60</button>
+           </div>
+            
+            <div class="bottom">
+              <button class="coupon-code">SWAG60</button>
             <p class="validity">Valid until 31 October 2022</p>
+            </div>
           </div>
 
           <div class="coupon-card" data-aos="zoom-out">
+           <div class="top">
             <p class="brand">MYNTRA</p>
             <p class="offer mt-1">Flat 15% Off </p>
             <p class="description">
               Flat 15% Off on Orders above Rs. 6999
             </p>
-            <div class="dashed-line"></div>
-            <button class="coupon-code">MYN15</button>
+           </div>
+            
+            <div class="bottom">
+              <button class="coupon-code">MYN15</button>
             <p class="validity">Valid until 31 October 2022</p>
+            </div>
           </div>
           <div class="coupon-card" data-aos="zoom-out">
+           <div class="top">
             <p class="brand">GOIBIBO</p>
             <p class="offer mt-1">GET 10% OFF </p>
             <p class="description">
               Upto 50% Off On Domestic Hotels
             </p>
-            <div class="dashed-line"></div>
+           </div>
+            
+           <div class="bottom">
             <button class="coupon-code">HOTEL10</button>
             <p class="validity">Valid until 31 October 2022</p>
+           </div>
           </div>
           <div class="coupon-card" data-aos="zoom-out">
+           <div class="top">
             <p class="brand">GODADDY</p>
             <p class="offer mt-1">50% OFF</p>
             <p class="description">
               GoDaddy Promo Code: Upto 50% Off On .COM Domains
             </p>
-            <div class="dashed-line"></div>
-            <button class="coupon-code">DOMAIN50</button>
+           </div>
+            
+            <div class="bottom">
+              <button class="coupon-code">DOMAIN50</button>
             <p class="validity">Valid until 31 October 2022</p>
+            </div>
           </div>
           <div class="coupon-card" data-aos="zoom-out">
+           <div class="top">
             <p class="brand">MAKE MY TRIP</p>
             <p class="offer mt-1">20% OFF  </p>
             <p class="description">
               Makemytrip Hotel Coupons: Upto 20% Off On Domestic Hotels
             </p>
-            <div class="dashed-line"></div>
+           </div>
+            
+           <div class="bottom">
             <button class="coupon-code">TRIP20</button>
             <p class="validity">Valid until 31 October 2022</p>
+           </div>
           </div>
           
         </div>
@@ -318,195 +478,61 @@
       </div>
       
     </section>
-    <!-- PopUp Form -->
-    <section>
-      <div class="back-layer d-none">
-    <div class="d-flex justify-content-center align-center">
-      <div class="form-div d-flex justify-content-center align-center position-relative">
-        <i class="fa-solid fa-x position-absolute form-close"></i>
-        <div class="form ">
-          <p class="text-start form-text">Enter Coupon Details</p>
-          <form action="" id = "form" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
-            <input
-              type="text"
-              placeholder="Brand / Company Name"
-              class="mt-1 input-padding"  id = "brand_name"
-            />
-            <p id = "brand_err" class="err"></p>
-            <input
-              type="text"
-              placeholder="Discount"
-              class="mt-1 input-padding"  id = "discount"
-            />
-            <p id = "disc_err" class="err"></p>
-
-            <input
-              type="text"
-              placeholder="Offer Details"
-              class="mt-1 input-padding"  id = "offer_details"
-            />
-            <p id = "offer_err" class="err"></p>
-
-            <input
-              type="text"
-              placeholder="Coupon Code"
-              class="mt-1 input-padding"  id = "coupon_code"
-            />
-            <p id = "coupon_err" class="err"></p>
-            <input
-              type="text"
-              placeholder="Validity"
-              class="mt-1 input-padding"  id = "validity"
-            />
-            <p id = "validity_err" class="err"></p>
-
-            <button class="form-submit-btn mt-2" id = "submit-coupon">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-      </div>
-    </section>
+   
     <!-- coupon code -->
     <div class="add-btn ">
       <i class="fa-solid fa-plus text-white "></i>
     </div>
-<!-- Hover Coupon -->
-  <!-- mc donalds -->
-<div class="popup d-none" id = "popup1" onclick="hidePopup(1)" >
-<div class="d-flex justify-content-center align-center back-layer-hover ">
-  <section class="d-flex justify-content-center " >
-    <div class="pop-coupon position-relative ">
-      <div class="d-flex flex-column justify-content-center align-center">
-        <div class="top-section">
-          <i class="fa-solid fa-x position-absolute coupon-close pointer" ></i>
-          <div class="d-flex justify-content-between align-center">  
-            <div class="image">
-              <img src="./images/popular-coupon-images/macdonalds-img.webp" class="w-100 h-auto" alt="McDonalds" title="McDonalds" >
-            </div>
-            <p class="coupon-offer ">30% OFF <br><span>McDonalds</span></p>
-          </div>
-          <div class="coupon-text-part position-relative">
-            <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 25% at your next McDonalds buy </p>
-            <ul>
-              <li>Reedea  mble at all McDonalds restaurants in the UK.</li>
-              <li>Not valid with any other discounts and promotions.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="bottom-section">
-          <div class="scanner-img d-flex justify-content-center flex-column align-center">
-            <img src="./images/coupon-pop-images/qr-img.webp" loading="lazy" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
-            <p class="text-center validity mt-3">Valid until 01 December 2022</p>
-    
-          </div>
-        </div>
-      </div>
+
+ <!-- PopUp Form -->
+ <section>
+  <div class="back-layer d-none">
+<div class="d-flex justify-content-center align-center">
+  <div class="form-div d-flex justify-content-center align-center position-relative">
+    <i class="fa-solid fa-x position-absolute form-close"></i>
+    <div class="form ">
+      <p class="text-start form-text">Enter Coupon Details</p>
+      <form action="" id = "form" class="d-flex flex-column" onsubmit="event.preventDefault(); Validate_Form();">
+        <input
+          type="text"
+          placeholder="Brand / Company Name"
+          class="mt-1 input-padding"  id = "brand_name"
+        />
+        <p id = "brand_err" class="err"></p>
+        <input
+          type="text"
+          placeholder="Discount"
+          class="mt-1 input-padding"  id = "discount"
+        />
+        <p id = "disc_err" class="err"></p>
+
+        <input
+          type="text"
+          placeholder="Offer Details"
+          class="mt-1 input-padding"  id = "offer_details"
+        />
+        <p id = "offer_err" class="err"></p>
+
+        <input
+          type="text"
+          placeholder="Coupon Code"
+          class="mt-1 input-padding"  id = "coupon_code"
+        />
+        <p id = "coupon_err" class="err"></p>
+        <input
+          type="text"
+          placeholder="Validity"
+          class="mt-1 input-padding"  id = "validity"
+        />
+        <p id = "validity_err" class="err"></p>
+
+        <button class="form-submit-btn mt-2" id = "submit-coupon">Submit</button>
+      </form>
     </div>
-     </section>
-</div>
-</div>
-  <!-- kfc coupon -->
-  <div class=" popup d-none" id = "popup2" onclick="hidePopup(2)">
-  <div class="d-flex justify-content-center align-center back-layer-hover">
-    <section class="d-flex justify-content-center popup"   >
-      <div class="pop-coupon position-relative ">
-        <div class="d-flex flex-column justify-content-center align-center">
-          <div class="top-section">
-            <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
-            <div class="d-flex justify-content-between align-center">  
-              <div class="image">
-                <img src="./images/popular-coupon-images/kfc-logo.webp" class="w-100 h-auto" alt="Kfc " title="Kfc ">
-              </div>
-              <p class="coupon-offer ">25% OFF <br><span>KFC</span></p>
-            </div>
-            <div class="coupon-text-part position-relative">
-              <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 25% at your next KFC buy </p>
-              <ul>
-                <li>Reedeamble at all KFC restaurants in the UK.</li>
-                <li>Not valid with any other discounts and promotions.</li>
-                <li>No cash value.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="bottom-section">
-            <div class="scanner-img d-flex justify-content-center flex-column align-center">
-              <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
-              <p class="text-center validity mt-3">Valid until 01 December 2022</p>
-      
-            </div>
-          </div>
-        </div>
-      </div>
-       </section>
   </div>
+</div>
   </div>
-<!-- starbucks -->
-<div class=" popup d-none" id = "popup3" onclick="hidePopup(3)">
- <div class="d-flex justify-content-center align-center back-layer-hover">
-  <section class="d-flex justify-content-center popup  "  >
-    <div class="pop-coupon position-relative ">
-      <div class="d-flex flex-column justify-content-center align-center">
-        <div class="top-section">
-          <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
-          <div class="d-flex justify-content-between align-center">  
-            <div class="image">
-              <img src="./images/popular-coupon-images/starbucks-logo.webp" loading="lazy" class="w-100 h-auto" alt="StarBucks" title="StarBucks">
-            </div>
-            <p class="coupon-offer ">10% OFF <br><span>StarBucks</span></p>
-          </div>
-          <div class="coupon-text-part position-relative">
-            <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 10% at your next StarBucks buy </p>
-            <ul>
-              <li>Reedeamble at all StarBucks restaurants in the India.</li>
-              <li>Not valid with any other discounts and promotions.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="bottom-section">
-          <div class="scanner-img d-flex justify-content-center flex-column align-center">
-            <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2 h-auto" alt="Qr Code" title="Qr Code">
-            <p class="text-center validity mt-3">Valid until 01 December 2022ss</p>
-    
-          </div>
-        </div>
-      </div>
-    </div>
-     </section>
- </div>
-</div>
-<!-- vapino -->
-<div class=" popup d-none" id = "popup4" onclick="hidePopup(4)">
-  <section class="d-flex justify-content-center align-center back-layer-hover"  >
-    <div class="pop-coupon position-relative ">
-      <div class="d-flex flex-column justify-content-center align-center">
-        <div class="top-section">
-          <i class="fa-solid fa-x position-absolute coupon-close pointer"></i>
-          <div class="d-flex justify-content-between align-center">  
-            <div class="image">
-              <img src="./images/popular-coupon-images/vapiano-logo.webp" class="w-100 h-auto" alt="Vapiano" title="Vapiano">
-            </div>
-            <p class="coupon-offer ">10% OFF <br><span>Vapiano</span></p>
-          </div>
-          <div class="coupon-text-part position-relative">
-            <p class="text-left coupon-text-disc mt-3 mb-2  ">Get 10% at your next Vapiano buy </p>
-            <ul>
-              <li>Reedeamble at all Vapiano restaurants in the India.</li>
-              <li>Not valid with any other discounts and promotions.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="bottom-section">
-          <div class="scanner-img d-flex justify-content-center flex-column align-center">
-            <img src="./images/coupon-pop-images/qr-img.webp" class="w-60 mb-2" alt="Qr Code" title="Qr Code">
-            <p class="text-center validity mt-3">Valid until 01 December 2022</p>
-    
-          </div>
-        </div>
-      </div>
-    </div>
-     </section>
-</div>
+</section>
     <!-- Footer -->
     <footer class="footer-bg-color">
       <p class="text-center footer-text">
