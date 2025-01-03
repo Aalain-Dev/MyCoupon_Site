@@ -148,19 +148,19 @@ const loadMore = () => {
     cards.style.display = 'block';
   }
 }
-// const showLoader = () => {
-//   const loader = document.querySelector(".loader-back-layer");
-//   loader.style.display = "flex";
-//   loader.style.opacity = "1";  
-// }
-// const  hideLoader = ()=> {
-//   const loader = document.querySelector(".loader-back-layer");
-//   loader.style.opacity = "0"; 
-//   setTimeout(() => {
-//       loader.style.display = "none"; 
-//   }, 500);
-// }
-// document.addEventListener("DOMContentLoaded", () => {
-//   showLoader();
-//   setTimeout(hideLoader, 3000);
-// });
+const showLoader = () => {
+  const loader = document.querySelector(".loader-back-layer");
+  loader.style.display = "flex";
+  loader.style.opacity = "1";  
+}
+const  hideLoader = ()=> {
+  const loader = document.querySelector(".loader-back-layer");
+  loader.style.opacity = "0"; 
+  setTimeout(() => {
+      loader.style.display = "none"; 
+  }, 500);
+}
+document.addEventListener("DOMContentLoaded", () => {
+  showLoader();
+  setTimeout(hideLoader, 3000);
+});
