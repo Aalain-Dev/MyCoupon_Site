@@ -101,9 +101,10 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
   const couponCode = document.getElementById('coupon_code').value;
   const validity = document.getElementById('validity').value;
   if (Validate_Form()) {
-    const couponCard = document.createElement('div');
-    couponCard.classList.add('coupon-card');
-    couponCard.innerHTML = `
+    
+    const couponcard = document.createElement('div');
+    couponcard.classList.add('coupon-card','new-added-coupon-card');
+    couponcard.innerHTML = `
       <p class="brand">${brand}</p>
       <p class="offer mt-1">${offer}</p>
       <p class="description">${description}</p>
@@ -116,7 +117,7 @@ document.getElementById('submit-coupon').addEventListener('click', function() {
     description.value = '';
     couponCode.value = '';
     validity.value = '';
-    document.querySelector('.trending-coupon-margin').appendChild(couponCard);
+    document.querySelector('.trending-coupon-margin').appendChild(couponcard);
     back_layer.style.display = "none";
   } 
 });
@@ -129,14 +130,17 @@ const hidePopup = (id)=> {
   popup.classList.add("d-none");
 }
 let currentvisible = 2; 
-const loadMore= ()=> {
-  const cards = document.querySelectorAll('.trending-coupon-margin .coupon-card');
+const loadMore = () => {
+  const cards = document.querySelectorAll('.trending-coupon-margin .coupon-card'); // update the cards variable
   for (let i = currentvisible; i < currentvisible + 2 && i < cards.length; i++) {
     cards[i].style.display = 'block';
   }
   currentvisible += 2;
   if (currentvisible >= cards.length) {
     document.querySelector('.load-more').style.display = 'none';
+  } else {
+    const cardss = document.querySelector('.new-added-coupon-card');
+    cards.style.display = 'block';
   }
 }
 // const showLoader = () => {

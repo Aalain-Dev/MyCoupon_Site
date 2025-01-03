@@ -6,23 +6,16 @@
     
     <title>My Coupon Site</title>
     <!-- Preload and optimize CSS links -->
-    <!-- <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" /> -->
+    <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- Font Awesome -->
-
-    <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css" media="print" onload="this.media='all'">
-
-    <noscript>
-      <link rel="stylesheet" href="/font-awesome/fontawesome-free-6.7.2-web/css/all.min.css">
-    </noscript>
-
     <!-- Owl Carousel CSS -->
     <link rel="preload" href="./caraousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" as="script">
     <link rel="stylesheet" href="./caraousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./caraousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <!-- AOS (Animate on Scroll) -->
     <link href="./Aos/aos-master/dist/aos.css" rel="stylesheet" as="script">
-    
+    <link rel="icon" href="./images/fav-icon/fav-icon.png" type="image/x-icon">
+
   </head>
   <body>
    <!-- <div class="d-flex justify-content-center align-center loader-back-layer">
@@ -45,7 +38,7 @@
       <a href="#">
         <div class="banner-image w-100">
           <img
-            src="./images/destkop_banner_image.webp" loading="lazy"
+            src="./images/destkop_banner_image.webp"
             class="img-css w-100 d-mobile-none h-100"
             alt="Banner Img"
             title="Banner Img" 
@@ -317,9 +310,11 @@
             <button class="coupon-code">TRIP20</button>
             <p class="validity">Valid until 31 October 2022</p>
           </div>
-        <button class="load-more d-none d-destkop-none" onclick="loadMore()">Load More...</button>
-
+          
         </div>
+       <div class="d-flex justify-content-center mb-2">
+        <button class="load-more d-none d-destkop-none" onclick="loadMore()">Load More...</button>
+       </div>
       </div>
       
     </section>
@@ -481,8 +476,8 @@
  </div>
 </div>
 <!-- vapino -->
-<div class="back-layer-hover popup d-none" id = "popup4" onclick="hidePopup(4)">
-  <section class="d-flex justify-content-center popup  "  >
+<div class=" popup d-none" id = "popup4" onclick="hidePopup(4)">
+  <section class="d-flex justify-content-center align-center back-layer-hover"  >
     <div class="pop-coupon position-relative ">
       <div class="d-flex flex-column justify-content-center align-center">
         <div class="top-section">

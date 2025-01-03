@@ -81,9 +81,9 @@ a {
 .text-white {
   color: #fff;
 }
-/* .w-60 {
+.w-60 {
   width: 60% !important;
-} */
+}
 .text-start {
   text-align: left;
 }
@@ -326,6 +326,7 @@ nav {
   position: fixed;
   bottom: 85px;
   right: 26px;
+  z-index: 20;  
 }
 .add-btn i {
   font-weight: 400;
@@ -653,6 +654,13 @@ nav {
     right: 12px;
     top: 170px;
     left: 110%;
+  }
+  .new-added-coupon-card{
+    display: block;
+    }
+    .coupon-offer {
+      font-size: 20px;
+      font-weight: 600;
   }
 }
 @media screen and (max-width: 400px) {
